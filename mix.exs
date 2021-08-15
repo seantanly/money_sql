@@ -76,7 +76,7 @@ defmodule Money.Sql.Mixfile do
 
   defp deps do
     [
-      {:ex_money, "~> 5.5"},
+      {:ex_money, github: "seantanly/money", branch: "update-deps"},
       {:jason, "~> 1.0"},
       {:dialyxir, "~> 1.0", only: [:dev], runtime: false},
       {:ecto, "~> 3.5"},
